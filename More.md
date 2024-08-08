@@ -35,7 +35,7 @@
 
 ## Fetch all of a user
     Method: GET
-    Endpoint: domain.com/api/transactions
+    Endpoint: domain.com/api/transactions?page=pagenumber
 
 ### Response 
     [
@@ -258,3 +258,52 @@
             }
         ]
     ]
+
+
+
+## Single transaction detail
+    URL: localhost:8000/api/transactions/{id}?type=none
+    Method: GET
+    Valid types: electricity, result_checker, data, cable, airtime
+
+
+### Error Response
+    {
+        "status": true,
+        "response": {
+            "status": false,
+            "errors": [
+                "invalid transaction type"
+            ],
+            "message": "invalid transaction type"
+        },
+        "message": "Transaction fetched"
+    }
+
+### Success Response
+    {
+        "status": true,
+        "response": {
+            "transaction_id": "202408072201-electricity-bur2b5fa0f034539000-1723064491gpp6",
+            "user_id": 2,
+            "vendor_id": 2,
+            "disco_id": "04810042-0caf-3124-b9e9-6c77315c8ed6",
+            "disco_name": "Connelly Inc",
+            "meter_number": "MTR6514913",
+            "meter_type_id": 1,
+            "meter_type_name": "reiciendis",
+            "amount": "362.71",
+            "customer_mobile_number": "+19067420910",
+            "customer_name": "Dixie Marks",
+            "customer_address": "44590 Murray Shoals\nNorth Zoila, WA 13445-6666",
+            "balance_before": "679.45",
+            "balance_after": "15.42",
+            "token": "eafb7b0f-14c5-3a2d-a744-0043d67a7603",
+            "api_data_id": "d238c9db-cd81-3856-a6fb-b86c52734c91",
+            "api_response": "{\"data\": {\"amount\": 505.67, \"disco_name\": \"Parisian, Breitenberg and Hickle\", \"meter_number\": \"MTR4143268\", \"transaction_id\": \"4a965869-66ae-3296-994a-e0417c9dc376\"}, \"status\": \"success\", \"message\": \"Necessitatibus omnis quam vel.\"}",
+            "status": 0,
+            "created_at": "2024-08-07T21:01:31.000000Z",
+            "updated_at": "2024-08-07T21:01:31.000000Z"
+        },
+        "message": "Transaction fetched"
+    }
