@@ -29,6 +29,7 @@
                 "id": 5
             }
         }
+ NB: This now returns the new user's virtual accounts
 
 #### Failure Response
     {
@@ -88,6 +89,12 @@
                 ]
             }
     }
+
+## Logout Endpoint
+    Method: POST
+    Endpoint: domain.com/api/logout
+    This is authenticated endpoint
+
 
 ## Forgot Password
     This endpoint is email sending and takes time - so implement loading spinner. 
