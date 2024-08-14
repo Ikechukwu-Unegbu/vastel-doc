@@ -372,3 +372,36 @@ meter_type: *Prepaid* = 1 & *Postpaid* = 2
             "id": 12
         }
     }
+
+
+## Mony transfer 
+    Method: POST
+    URL: /api/transfer
+### Request Body
+    {
+        "amount":60, 
+        "recipient":"24clinichealthcare@glllmail.com",
+        "type":"vastel"
+    }
+
+    The recipient can be email or username
+
+### Failure responses
+    {
+        "status": "failed",
+        "message": "No such user"
+    }
+
+    {
+        "status": "failed",
+        "message": "Insufficinet balance"
+    }
+
+    {
+        "message": "The recipient field is required.",
+        "errors": {
+            "recipient": [
+                "The recipient field is required."
+            ]
+        }
+    }
