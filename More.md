@@ -33,7 +33,7 @@
     }
 
 
-## Fetch all of a user
+## Fetch all of a user transactions
     Method: GET
     Endpoint: domain.com/api/transactions?page=pagenumber
 
