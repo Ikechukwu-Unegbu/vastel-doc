@@ -172,6 +172,58 @@
         "phone": null
     }
 
-## Update Profile Info 
 
 
+# OTP 
+    Email should be submitted as hidden field.
+
+## Resend OTP
+    Method: POST
+    Endpoint: domain.com/api/resend-otp
+    This is un-authenticated endpoint
+
+### Body
+
+    {
+        "email":"postranet@gmail.com"
+    }
+
+### Success Response
+    {
+        "status": "success",
+        "0": "New OTP sent"
+    }
+
+## Verify OTP
+    Method: POST
+    Endpoint: domain.com/api/verify-otp
+    This is un-authenticated endpoint
+
+### Body
+    {
+        "otp":"GHO2", 
+        "email":"postranet@gmail.com"
+    }
+
+### Failure Response - ERROR Code 403
+    {
+        "status": "failed",
+        "message": "Invalid otp"
+    }
+
+    or you can see
+    {
+        "message": "The otp field is required.",
+        "errors": {
+            "otp": [
+                "The otp field is required."
+            ]
+        }
+    }
+
+### Failure Response - Code 200
+
+    {
+        "status": "success",
+        "message": "Valid otp"
+    }
