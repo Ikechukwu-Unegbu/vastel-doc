@@ -173,6 +173,22 @@
     }
 
 
+## Update Profile
+    Method: post
+    URL: /api/user
+### Request Body
+    {
+        "name":"updated ikechukwu",
+        "phone":"080747777777",
+        "username":"updated_vincent"
+    }
+
+    Please concatnate first and second name into one.
+
+### Failure response
+    You can expect typical laravel validation error
+    
+
 
 # OTP 
     Email should be submitted as hidden field.
