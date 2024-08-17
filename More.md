@@ -314,6 +314,7 @@
 
     Method: GET
     URL: api/notifications
+    Type could be ('info', 'warning', 'success', 'error')
 ### Response 
     {
         "status": "success",
