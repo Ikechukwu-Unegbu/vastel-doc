@@ -307,3 +307,167 @@
         },
         "message": "Transaction fetched"
     }
+
+
+
+## Notifications Endpoint
+
+    Method: GET
+    URL: api/notifications
+### Response 
+    {
+        "status": "success",
+        "message": "notification fetched",
+        "data": {
+            "current_page": 1,
+            "data": [
+                {
+                    "id": 1,
+                    "uuid": "c6c856d8-7a23-4498-9f96-35dd54ae9401",
+                    "title": "First Test Title",
+                    "message": "First test announcement",
+                    "type": "info",
+                    "start_at": null,
+                    "end_at": null,
+                    "is_active": 1,
+                    "created_at": "2024-08-17T09:21:13.000000Z",
+                    "updated_at": "2024-08-17T09:21:13.000000Z"
+                },
+                {
+                    "id": 2,
+                    "uuid": "e1f56a93-516c-4f24-bf8b-c106f01607c0",
+                    "title": "Second Announcement",
+                    "message": "Second Announcement",
+                    "type": "info",
+                    "start_at": null,
+                    "end_at": null,
+                    "is_active": 1,
+                    "created_at": "2024-08-17T09:22:59.000000Z",
+                    "updated_at": "2024-08-17T09:22:59.000000Z"
+                },
+                {
+                    "id": 3,
+                    "uuid": "69af1cea-ccca-4dc1-a518-3ae31506846c",
+                    "title": "Provident earum quas sed esse eveniet vitae.",
+                    "message": "Neque et necessitatibus molestias aliquid nostrum. Ipsam et voluptates ut quidem. Sit fuga dolores numquam et qui ut officiis est. Quia et autem consectetur repellendus libero ut occaecati.",
+                    "type": "warning",
+                    "start_at": "2024-08-26 10:50:52",
+                    "end_at": "2024-09-05 10:50:52",
+                    "is_active": 1,
+                    "created_at": "2024-08-17T09:50:52.000000Z",
+                    "updated_at": "2024-08-17T09:50:52.000000Z"
+                },
+                {
+                    "id": 4,
+                    "uuid": "2fcfb881-dfb6-48ec-b5bc-2a2dccf52414",
+                    "title": "Architecto dolores qui expedita et perspiciatis non libero.",
+                    "message": "Non est possimus impedit pariatur molestiae cumque. Aut nihil tempora incidunt qui illo natus voluptate animi. Sit sit quidem laudantium quibusdam eligendi est et nesciunt. Ullam quam et ut laboriosam consequatur nobis.",
+                    "type": "info",
+                    "start_at": "2024-08-17 10:50:52",
+                    "end_at": "2024-09-02 10:50:52",
+                    "is_active": 1,
+                    "created_at": "2024-08-17T09:50:52.000000Z",
+                    "updated_at": "2024-08-17T09:50:52.000000Z"
+                },
+                {
+                    "id": 5,
+                    "uuid": "b39a2893-3776-4e47-97c5-1d62ffe95c5f",
+                    "title": "Beatae quia quasi quis illo.",
+                    "message": "Maxime id quo ipsa rerum. Reiciendis deleniti quis non cum. Deserunt qui aut tempore quia. Voluptatem et aut et sed quasi quasi.",
+                    "type": "error",
+                    "start_at": "2024-08-19 10:50:52",
+                    "end_at": "2024-08-29 10:50:52",
+                    "is_active": 1,
+                    "created_at": "2024-08-17T09:50:52.000000Z",
+                    "updated_at": "2024-08-17T09:50:52.000000Z"
+                },
+                {
+                    "id": 6,
+                    "uuid": "ca908a73-057c-463d-8be3-b00a5753efa0",
+                    "title": "Ut eveniet animi voluptas consectetur id explicabo.",
+                    "message": "Maxime necessitatibus accusamus consequatur rerum aut voluptatem sed ullam. Est at sed veritatis dolor voluptatem ea. Iste soluta commodi minus et. Inventore ducimus dolores nihil quis.",
+                    "type": "success",
+                    "start_at": "2024-08-25 10:50:52",
+                    "end_at": "2024-09-03 10:50:52",
+                    "is_active": 1,
+                    "created_at": "2024-08-17T09:50:52.000000Z",
+                    "updated_at": "2024-08-17T09:50:52.000000Z"
+                },
+                {
+                    "id": 7,
+                    "uuid": "dd0fe78a-4c31-4337-9513-129a2276d86a",
+                    "title": "Aliquam sint delectus reprehenderit voluptatum omnis.",
+                    "message": "Ratione necessitatibus voluptatibus illum est ut. Ullam voluptatem cumque quam aut amet. Earum maxime adipisci est ad.",
+                    "type": "warning",
+                    "start_at": "2024-08-20 10:50:52",
+                    "end_at": "2024-08-31 10:50:52",
+                    "is_active": 1,
+                    "created_at": "2024-08-17T09:50:52.000000Z",
+                    "updated_at": "2024-08-17T09:50:52.000000Z"
+                },
+                {
+                    "id": 8,
+                    "uuid": "63576538-f563-4cc3-9936-7bf8fb69addc",
+                    "title": "Aut sed quod at autem ex est nobis.",
+                    "message": "Voluptas dicta sint voluptatum commodi corrupti rem. Sit sit quasi dolores possimus dignissimos ipsum omnis. Blanditiis nulla fugit neque iusto dolor debitis quos assumenda.",
+                    "type": "info",
+                    "start_at": "2024-08-19 10:50:52",
+                    "end_at": "2024-09-06 10:50:52",
+                    "is_active": 1,
+                    "created_at": "2024-08-17T09:50:52.000000Z",
+                    "updated_at": "2024-08-17T09:50:52.000000Z"
+                },
+                {
+                    "id": 9,
+                    "uuid": "126a75b7-ec25-4a04-91e6-d52b136c61e0",
+                    "title": "Id in porro et commodi blanditiis.",
+                    "message": "Sit eius ipsa rerum ut neque. Perferendis distinctio reprehenderit quasi earum delectus doloribus. Officia sunt est voluptatum vitae cupiditate.",
+                    "type": "info",
+                    "start_at": "2024-08-27 10:50:52",
+                    "end_at": "2024-08-30 10:50:52",
+                    "is_active": 1,
+                    "created_at": "2024-08-17T09:50:52.000000Z",
+                    "updated_at": "2024-08-17T09:50:52.000000Z"
+                },
+                {
+                    "id": 12,
+                    "uuid": "3bdae33d-1f4e-448e-b97c-925345c59d6e",
+                    "title": "Et est dicta consequatur voluptates.",
+                    "message": "Recusandae at autem enim rem illum odio corporis. Eum qui sed deleniti quia. Sed labore ipsam consequatur.",
+                    "type": "error",
+                    "start_at": "2024-08-27 10:50:52",
+                    "end_at": "2024-08-30 10:50:52",
+                    "is_active": 1,
+                    "created_at": "2024-08-17T09:50:52.000000Z",
+                    "updated_at": "2024-08-17T09:50:52.000000Z"
+                }
+            ],
+            "first_page_url": "http://localhost:8000/api/notifications?page=1",
+            "from": 1,
+            "last_page": 1,
+            "last_page_url": "http://localhost:8000/api/notifications?page=1",
+            "links": [
+                {
+                    "url": null,
+                    "label": "&laquo; Previous",
+                    "active": false
+                },
+                {
+                    "url": "http://localhost:8000/api/notifications?page=1",
+                    "label": "1",
+                    "active": true
+                },
+                {
+                    "url": null,
+                    "label": "Next &raquo;",
+                    "active": false
+                }
+            ],
+            "next_page_url": null,
+            "path": "http://localhost:8000/api/notifications",
+            "per_page": 10,
+            "prev_page_url": null,
+            "to": 10,
+            "total": 10
+        }
+    }
