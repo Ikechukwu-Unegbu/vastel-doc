@@ -308,6 +308,21 @@
         "message": "Transaction fetched"
     }
 
+## Fetch Telcos and Vastel Logos and Banner
+    Method: GET
+    URL: api/logos?logo={{'mtn_logo', 'airtel_logo', 'glo_logo', '9mobile_logo', 'app_logo', 'app_banner'}}
+
+### Error response
+    {
+        "status":"false",
+        "message": "Invalid column specified.",
+        "errors": {
+            "logo": [
+                "Invalid column specified."
+            ]
+        }
+    }
+
 
 
 ## Notifications Endpoint

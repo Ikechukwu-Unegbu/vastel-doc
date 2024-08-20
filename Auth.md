@@ -123,7 +123,8 @@
 
 ## Change Password
     Method: Post
-    Endpoint: domain.com/api/change-password/{username}
+    Endpoint: domain.com/api/change-password/
+    
     Body: 
     {
         "current_password":"password", 
@@ -149,7 +150,7 @@
 
 ## View Profile Settings 
     Method: GET
-    Endpoint: domain.com/api/user/{username}
+    Endpoint: domain.com/api/user/{username/email}
 
 #### Response 
     {

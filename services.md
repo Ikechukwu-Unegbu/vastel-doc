@@ -238,7 +238,8 @@ On no account shall this work be used by any party without explicity approval of
 
     -- Validate IUC/Smartcard Endpoint
 
-    POST /api/cable/validate HTTP/1.1
+    POST /api/cable/validate 
+    HTTP/1.1
     Content-Type: application/json
     Authorization: Bearer 2|0q2K7QUbnT3TcQUMsyyRh4UASupLJl9XuKjotUqqe5b1832c
     Body : {
@@ -312,7 +313,8 @@ On no account shall this work be used by any party without explicity approval of
 
     -- Validate Meter Number Endpoint
 
-    POST /api/electricity/validate HTTP/1.1
+    POST /api/electricity/validate 
+    HTTP/1.1
     Content-Type: application/json
     Authorization: Bearer 2|0q2K7QUbnT3TcQUMsyyRh4UASupLJl9XuKjotUqqe5b1832c
     Body : {
