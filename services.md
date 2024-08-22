@@ -407,3 +407,55 @@ meter_type: *Prepaid* = 1 & *Postpaid* = 2
             ]
         }
     }
+
+
+
+## Education (Exam List)
+    POST /api/exams HTTP/1.1
+    Content-Type: application/json
+    Example Response : {
+        "status": true,
+        "response": [
+            {
+                "id": 1,
+                "vendor_id": 3,
+                "name": "WAEC",
+                "amount": "3900.00",
+                "status": 1,
+                "created_at": "2024-07-14T17:49:29.000000Z",
+                "updated_at": "2024-07-15T12:08:53.000000Z"
+            }
+        ],
+        "message": "Result Checker PIN"
+    }
+
+## Create Result Checker PIN
+    POST /api/epins/create HTTP/1.1
+    Content-Type: application/json
+    Authorization: Bearer 2|0q2K7QUbnT3TcQUMsyyRh4UASupLJl9XuKjotUqqe5b1832c
+    Body : {
+        "exam_name": "WAEC",
+        "quantity": 1
+    }
+    Example Response : {
+        "status": true,
+        "response": {
+            "transaction_id": "20240716037023800-1721152807-result-checker-iijfcqeqqobls7",
+            "exam_name": "WAEC",
+            "quantity": "1",
+            "amount": "3900.00",
+            "balance_before": "14000000.00",
+            "balance_after": "13996100",
+            "purchase_codes": [
+                {
+                    "id": 23,
+                    "result_checker_id": 16,
+                    "serial": "WRN182135587",
+                    "pin": "373820665258",
+                    "created_at": "2024-07-16T18:00:08.000000Z",
+                    "updated_at": "2024-07-16T18:00:08.000000Z"
+                }
+            ]
+        },
+        "message": "Result Checker PIN purchase successful: WAEC (1 QTY) ₦3900."
+    }
