@@ -487,3 +487,14 @@
             "total": 10
         }
     }
+
+
+## Referral
+    The referral input field should have "referral_code" as its key. Very important
+
+    Now to fetch all the users logged in user referred and what he or she have earned from each of them, proceed as follows
+
+    Method:GET
+    URL: /api/referrer
+
+    The response format is the usual
