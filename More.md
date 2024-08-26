@@ -498,3 +498,13 @@
     URL: /api/referrer
 
     The response format is the usual
+
+
+## Account Deleting
+    beging with making GET call to /api/delete-user
+
+    The user will recieve an otp
+
+    Submit the otp to /api/confirm-delete via POST call
+
+    Try submitting wrong otp so you can see error response.
