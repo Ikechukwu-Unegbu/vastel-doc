@@ -499,6 +499,12 @@
 
     The response format is the usual
 
+## Withdraw Referral Earning
+
+    Method: GET
+    URL /api/withdraw-bonus
+
+    Handle error response
 
 ## Account Deleting
     beging with making GET call to /api/delete-user
