@@ -514,3 +514,50 @@
     Submit the otp to /api/confirm-delete via POST call
 
     Try submitting wrong otp so you can see error response.
+
+
+## Site Setting
+
+    Site settings is endpoint that provides you comprehensive view of system config
+    It includes social media links, airtime status - this enables admin to turn off airtime sales
+    Atm funding status - param enabling admin to turn on or off the atm card funding.
+
+    METHOD - GET
+    URL: domain.com/api/sitesetting
+
+### Response 
+    {
+        "status": true,
+        "response": {
+            "id": 1,
+            "stie_title": "Your Site Title",
+            "site_logo": null,
+            "email": "admin@example.com",
+            "phone1": null,
+            "phone2": null,
+            "total_users": "2000,000",
+            "name": "Halcyon Internet",
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null,
+            "meta_data": null,
+            "created_at": "2025-02-23T12:06:24.000000Z",
+            "updated_at": "2025-02-23T12:06:24.000000Z",
+            "address_one": null,
+            "address_two": null,
+            "mtn_logo": null,
+            "airtel_logo": null,
+            "glo_logo": null,
+            "9mobile_logo": null,
+            "app_logo": null,
+            "app_banner": null,
+            "airtime_sales": 1,
+            "airtime_limit": "20000.00",
+            "money_transfer_status": 1,
+            "transfer_charges": "50.00",
+            "minimum_transfer": "100.00",
+            "maximum_transfer": "30000.00"
+        },
+        "message": ""
+    }
