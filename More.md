@@ -528,6 +528,7 @@
 ### Response 
    {
         "status": true,
+        
         "response": {
             "id": 1,
             "stie_title": "Your Site Title",
