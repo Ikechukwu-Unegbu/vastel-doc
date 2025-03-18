@@ -559,5 +559,6 @@
             "minimum_transfer": "100.00",
             "maximum_transfer": "30000.00"
         },
+        
         "message": ""
     }
