@@ -526,7 +526,7 @@
     URL: domain.com/api/sitesetting
 
 ### Response 
-    {
+   {
         "status": true,
         "response": {
             "id": 1,
@@ -557,7 +557,9 @@
             "money_transfer_status": 1,
             "transfer_charges": "50.00",
             "minimum_transfer": "100.00",
-            "maximum_transfer": "30000.00"
+            "maximum_transfer": "30000.00",
+            "card_charges": 1.5,
+            "card_funding_status": 1
         },
         
         "message": ""
