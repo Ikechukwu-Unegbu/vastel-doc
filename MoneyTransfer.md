@@ -1,5 +1,7 @@
 
 ## Money Transfer (Bank) Endpoint
+
+## Fetch Bank List
      GET /api/bank-list HTTP/1.1
     Content-Type: application/json
     Example Response : {
@@ -14,7 +16,8 @@
         ],
         "message": "Banks fetched successfully"
     }
-
+    
+## Query Account Number
     POST /api/bank/query-account-number HTTP/1.1
     Content-Type: application/json
     Authorization: Bearer 2|0q2K7QUbnT3TcQUMsyyRh4UASupLJl9XuKjotUqqe5b1832c
@@ -30,7 +33,8 @@
         },
         "message": "Account verified successfully."
     }
-
+    
+## Process Payment
     POST /api/bank/process-transaction HTTP/1.1
     Content-Type: application/json
     Authorization: Bearer 2|0q2K7QUbnT3TcQUMsyyRh4UASupLJl9XuKjotUqqe5b1832c
