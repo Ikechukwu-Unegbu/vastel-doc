@@ -565,3 +565,19 @@
         
         "message": ""
     }
+
+
+## Loggedin User's Virtual accounts
+
+    This endpoints gets all virtual accounts of auth user
+
+    METHOD - GET
+    URL: domain.com/api/virtual-accounts
+
+### Response 
+  
+    {
+        "status": true,
+        "response": [],
+        "message": "Virtual Account fetched successfully"
+    }
