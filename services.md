@@ -2,7 +2,8 @@ This is Intellectual property and copyritght of Halcyon Internet and VasTel Ng.
 On no account shall this work be used by any party without explicity approval of both entities especially VasTel.
 
 ## Network Endpoint
-    POST /api/networks HTTP/1.1
+    POST /api/networks?type=airtime HTTP/1.1
+    Valid types: data & airtime
     Content-Type: application/json
     Example Response : {
         "status": "success",
