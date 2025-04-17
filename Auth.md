@@ -11,7 +11,8 @@
             "phone":"08064133376",
             "email":"apiike2@gmail.com", 
             "password":"password", 
-            "password_confirmation":"password"
+            "password_confirmation":"password",
+             "os_player_id": "0000-player-id-0000"
         }
 
 #### Success Response 
@@ -51,7 +52,8 @@
     Body:
     {
         "email":"apiike2@gmail.com",
-        "password":"password"
+        "password":"password",
+         "os_player_id": "0000-player-id-0000"
     }
 
 #### Success Response

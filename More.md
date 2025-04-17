@@ -43,6 +43,7 @@
             {
             "transaction_id": "202408072201-electricity-1zcsmuc0rl013877900-1723064491p6mc",
             "status": 1,
+            "text_status": "successful",
             "amount": "370.26",
             "created_at": "2024-08-07T21:01:31.000000Z",
             "model_source": "ElectricityTransaction"
@@ -50,6 +51,7 @@
             {
             "transaction_id": "202408072201-electricity-nuqojiqrc5023466300-1723064491yebe",
             "status": 0,
+            "text_status": "failed",
             "amount": "924.62",
             "created_at": "2024-08-07T21:01:31.000000Z",
             "model_source": "ElectricityTransaction"
@@ -57,6 +59,7 @@
             {
             "transaction_id": "202408072201-electricity-csvgkfgn2g028999200-1723064491hsih",
             "status": 0,
+            "text_status": "failed",
             "amount": "888.79",
             "created_at": "2024-08-07T21:01:31.000000Z",
             "model_source": "ElectricityTransaction"
@@ -64,6 +67,7 @@
             {
             "transaction_id": "202408072201-electricity-bur2b5fa0f034539000-1723064491gpp6",
             "status": 0,
+            "text_status": "failed",
             "amount": "362.71",
             "created_at": "2024-08-07T21:01:31.000000Z",
             "model_source": "ElectricityTransaction"
@@ -71,6 +75,7 @@
             {
             "transaction_id": "202408072201-electricity-zcljab6ig4040075100-1723064491yjmo",
             "status": 1,
+            "text_status": "successful",
             "amount": "596.03",
             "created_at": "2024-08-07T21:01:31.000000Z",
             "model_source": "ElectricityTransaction"
@@ -78,6 +83,7 @@
             {
             "transaction_id": "202408072201-electricity-xaorcve8ov051138200-1723064491e7nl",
             "status": 0,
+            "text_status": "failed",
             "amount": "869.96",
             "created_at": "2024-08-07T21:01:31.000000Z",
             "model_source": "ElectricityTransaction"
@@ -85,6 +91,7 @@
             {
             "transaction_id": "202408072201-electricity-82wh1hc0ju056676200-1723064491rwjh",
             "status": 1,
+            "text_status": "successful",
             "amount": "644.57",
             "created_at": "2024-08-07T21:01:31.000000Z",
             "model_source": "ElectricityTransaction"
@@ -92,6 +99,7 @@
             {
             "transaction_id": "202408072201-electricity-ee05rafszm062206600-1723064491nmft",
             "status": 1,
+            "text_status": "successful",
             "amount": "629.65",
             "created_at": "2024-08-07T21:01:31.000000Z",
             "model_source": "ElectricityTransaction"
@@ -99,6 +107,7 @@
             {
             "transaction_id": "202408072201-electricity-cyi8bbfmvv067748700-17230644917vtz",
             "status": 0,
+            "text_status": "failed",
             "amount": "937.77",
             "created_at": "2024-08-07T21:01:31.000000Z",
             "model_source": "ElectricityTransaction"
@@ -106,6 +115,7 @@
             {
             "transaction_id": "202408072201-electricity-2nyjy2toan073295200-1723064491p2pf",
             "status": 1,
+            "text_status": "successful",
             "amount": "947.29",
             "created_at": "2024-08-07T21:01:31.000000Z",
             "model_source": "ElectricityTransaction"
@@ -117,6 +127,7 @@
             {
             "transaction_id": "20240807001323500-1723064491-result-checker-m0r0crpt5s2vyx",
             "status": 1,
+            "text_status": "successful",
             "amount": "257.43",
             "created_at": "2024-08-07T21:01:31.000000Z",
             "model_source": "ResultCheckerTransaction"
@@ -124,6 +135,7 @@
             {
             "transaction_id": "20240807006860900-1723064491-result-checker-yydetzsmzchi4u",
             "status": 1,
+            "text_status": "successful",
             "amount": "671.25",
             "created_at": "2024-08-07T21:01:31.000000Z",
             "model_source": "ResultCheckerTransaction"
@@ -131,6 +143,7 @@
             {
             "transaction_id": "20240807035021400-1723064490-result-checker-v6usutmvwpl7jw",
             "status": 1,
+            "text_status": "successful",
             "amount": "124.33",
             "created_at": "2024-08-07T21:01:30.000000Z",
             "model_source": "ResultCheckerTransaction"
@@ -138,6 +151,7 @@
             {
             "transaction_id": "20240807047064000-1723064490-result-checker-mzp1gx9l3bvowr",
             "status": 0,
+            "text_status": "failed",
             "amount": "790.86",
             "created_at": "2024-08-07T21:01:30.000000Z",
             "model_source": "ResultCheckerTransaction"
@@ -145,6 +159,7 @@
             {
             "transaction_id": "20240807095804900-1723064490-result-checker-qakldo3vcnuod5",
             "status": 1,
+            "text_status": "successful",
             "amount": "504.67",
             "created_at": "2024-08-07T21:01:30.000000Z",
             "model_source": "ResultCheckerTransaction"
@@ -152,6 +167,7 @@
             {
             "transaction_id": "20240807029482900-1723064490-result-checker-6z9hgntjynwenl",
             "status": 0,
+            "text_status": "failed",
             "amount": "286.85",
             "created_at": "2024-08-07T21:01:30.000000Z",
             "model_source": "ResultCheckerTransaction"
@@ -159,6 +175,7 @@
             {
             "transaction_id": "20240807078101700-1723064490-result-checker-h7migv0wtzhuoy",
             "status": 1,
+            "text_status": "successful",
             "amount": "470.18",
             "created_at": "2024-08-07T21:01:30.000000Z",
             "model_source": "ResultCheckerTransaction"
@@ -166,6 +183,7 @@
             {
             "transaction_id": "20240807053808300-1723064490-result-checker-bdadqgloj9kyf7",
             "status": 1,
+            "text_status": "successful",
             "amount": "926.85",
             "created_at": "2024-08-07T21:01:30.000000Z",
             "model_source": "ResultCheckerTransaction"
@@ -173,6 +191,7 @@
             {
             "transaction_id": "20240807041535200-1723064490-result-checker-7gu497833r51jh",
             "status": 1,
+            "text_status": "successful",
             "amount": "435.17",
             "created_at": "2024-08-07T21:01:30.000000Z",
             "model_source": "ResultCheckerTransaction"
@@ -180,6 +199,7 @@
             {
             "transaction_id": "20240807055955000-1723064489-result-checker-syqkg9o66pfwku",
             "status": 1,
+            "text_status": "successful",
             "amount": "386.95",
             "created_at": "2024-08-07T21:01:29.000000Z",
             "model_source": "ResultCheckerTransaction"
@@ -189,6 +209,7 @@
             {
             "transaction_id": "202408072201-cable-41jvqxvvar020899400-1723064492qzfh",
             "status": 1,
+            "text_status": "successful",
             "amount": "306.18",
             "created_at": "2024-08-07T21:01:32.000000Z",
             "model_source": "CableTransaction"
@@ -196,6 +217,7 @@
             {
             "transaction_id": "202408072201-cable-lniuqnvymv026432200-1723064492tu8l",
             "status": 0,
+            "text_status": "failed",
             "amount": "760.96",
             "created_at": "2024-08-07T21:01:32.000000Z",
             "model_source": "CableTransaction"
@@ -203,6 +225,7 @@
             {
             "transaction_id": "202408072201-cable-uewjasqytp031971000-1723064492q36t",
             "status": 1,
+            "text_status": "successful",
             "amount": "477.01",
             "created_at": "2024-08-07T21:01:32.000000Z",
             "model_source": "CableTransaction"
@@ -210,6 +233,7 @@
             {
             "transaction_id": "202408072201-cable-fj7mc78ntp037508600-17230644922xio",
             "status": 1,
+            "text_status": "successful",
             "amount": "247.91",
             "created_at": "2024-08-07T21:01:32.000000Z",
             "model_source": "CableTransaction"
@@ -217,6 +241,7 @@
             {
             "transaction_id": "202408072201-cable-jmmhhtqmyo043042100-1723064492pfxn",
             "status": 1,
+            "text_status": "successful",
             "amount": "673.96",
             "created_at": "2024-08-07T21:01:32.000000Z",
             "model_source": "CableTransaction"
@@ -224,6 +249,7 @@
             {
             "transaction_id": "202408072201-cable-2l3vzhqjki048582100-1723064492kuds",
             "status": 1,
+            "text_status": "successful",
             "amount": "309.38",
             "created_at": "2024-08-07T21:01:32.000000Z",
             "model_source": "CableTransaction"
@@ -231,6 +257,7 @@
             {
             "transaction_id": "202408072201-cable-82xjlre5ll054120000-1723064492s6uf",
             "status": 0,
+            "text_status": "failed",
             "amount": "196.69",
             "created_at": "2024-08-07T21:01:32.000000Z",
             "model_source": "CableTransaction"
@@ -238,6 +265,7 @@
             {
             "transaction_id": "202408072201-cable-eaos7zlu5w059666700-1723064492ooyf",
             "status": 1,
+            "text_status": "successful",
             "amount": "699.22",
             "created_at": "2024-08-07T21:01:32.000000Z",
             "model_source": "CableTransaction"
@@ -245,6 +273,7 @@
             {
             "transaction_id": "202408072201-cable-nng7lmlwh7079914500-1723064491aqqn",
             "status": 0,
+            "text_status": "failed",
             "amount": "147.96",
             "created_at": "2024-08-07T21:01:31.000000Z",
             "model_source": "CableTransaction"
@@ -252,6 +281,7 @@
             {
             "transaction_id": "202408072201-cable-bvk3xcczgp099863700-1723064491t3nd",
             "status": 0,
+            "text_status": "failed",
             "amount": "517.48",
             "created_at": "2024-08-07T21:01:31.000000Z",
             "model_source": "CableTransaction"
@@ -302,6 +332,7 @@
             "api_data_id": "d238c9db-cd81-3856-a6fb-b86c52734c91",
             "api_response": "{\"data\": {\"amount\": 505.67, \"disco_name\": \"Parisian, Breitenberg and Hickle\", \"meter_number\": \"MTR4143268\", \"transaction_id\": \"4a965869-66ae-3296-994a-e0417c9dc376\"}, \"status\": \"success\", \"message\": \"Necessitatibus omnis quam vel.\"}",
             "status": 0,
+            "text_status": "failed",
             "created_at": "2024-08-07T21:01:31.000000Z",
             "updated_at": "2024-08-07T21:01:31.000000Z"
         },
