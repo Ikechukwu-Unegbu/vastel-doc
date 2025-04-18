@@ -294,7 +294,7 @@
 ## Single transaction detail
     URL: localhost:8000/api/transactions/{id}?type=none
     Method: GET
-    Valid types: electricity, result_checker, data, cable, airtime, money_transfer
+    Valid types: electricity, result_checker, data, cable, airtime, money_transfer, credit, debit
 
 
 ### Error Response
