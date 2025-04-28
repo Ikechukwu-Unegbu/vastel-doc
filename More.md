@@ -620,8 +620,8 @@
     METHOD - GET
     URL: domain.com/api/announcements
 
-### Response 
-  
+    ### Response 
+    
     {
         "status": true,
         "response": [
