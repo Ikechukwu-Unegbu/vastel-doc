@@ -612,3 +612,32 @@
         "response": [],
         "message": "Virtual Account fetched successfully"
     }
+
+## Announcement Endpoint
+
+    This endpoints gets all active announcements
+
+    METHOD - GET
+    URL: domain.com/api/announcements
+
+### Response 
+  
+    {
+        "status": true,
+        "response": [
+            {
+                  "id": 1,
+                  "uuid": "fc5c135c-9828-4d7b-8441-ce466d652c7b",
+                  "title": "Exciting News: Our VTU Platform is Live! ",
+                  "message": "We are thrilled to announce the launch of our Virtual Top-Up (VTU) platform, designed to make your everyday transactions faster, easier, and more rewarding!\n\nWhat You Can Do on Our Platform:\n✅ Buy Airtime for all major networks (MTN, Airtel, Glo, 9Mobile)\n✅ Purchase Data Bundles at unbeatable prices\n✅ Pay for Cable TV subscriptions (DSTV, GOTV, Startimes)\n✅ Settle Electricity Bills seamlessly\n✅ Enjoy instant transactions and secure payments\n\nWhy Choose Us?\n\nAffordable Rates: Get the best deals on airtime, data, and utility payments.\nReliable Service: 24/7 availability for all your needs.\nUser-Friendly Interface: Easy to navigate, even for first-time users.\nRewards: Earn commissions and bonuses on every transaction.\nStart enjoying the convenience and benefits today! 🚀\n\n\nThank you for choosing us as your trusted VTU service provider. Let’s stay connected and make life simpler together!",
+                  "type": "success",
+                  "link": "https://www.google.com",
+                  "start_at": "2025-04-28 08:39:00",
+                  "end_at": "2025-05-01 06:22:00",
+                  "is_active": 1,
+                  "created_at": "2024-11-29T05:07:31.000000Z",
+                  "updated_at": "2025-04-28T12:10:50.000000Z"
+            }
+        ],
+        "message": "Announcements Fetched Successfully"
+    }
