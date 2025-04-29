@@ -641,3 +641,29 @@
         ],
         "message": "Announcements Fetched Successfully"
     }
+
+
+## Generate A Sepecic Virtual Account Endpoint
+
+    This endpoints genretate a specific virtual account 
+    Providers could be ('9PSB', 'PALMPAY', 'MONIEPOINT')
+    
+    METHOD - POST
+    URL: domain.com/api/virtual-accounts/generate
+
+    Headers: 
+      Authorization: Bearer {your_token}
+      Content-Type: application/json
+    
+    Body:
+    {
+        "providers": ["9PSB", "PALMPAY"]
+    }
+
+    ### Response 
+    
+    {
+        "status": true,
+        "response": [],
+        "message": "Virtual Account Created Succeefully."
+    }
