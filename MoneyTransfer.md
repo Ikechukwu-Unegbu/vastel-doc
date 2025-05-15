@@ -1,7 +1,13 @@
 
-## Money Transfer (Bank) Endpoint
+# Money Transfer (Bank) API Documentation
 
-## Fetch Bank List
+This API allows users to fetch bank lists, verify account details, and process bank transfers.
+
+---
+
+## Fetch Bank List  
+**Retrieves a list of supported banks for transfers**  
+
      GET /api/bank-list HTTP/1.1
     Content-Type: application/json
     Example Response : {
@@ -18,6 +24,8 @@
     }
     
 ## Query Account Number
+**Verifies a recipient's bank account details before transfer**
+
     POST /api/bank/query-account-number HTTP/1.1
     Content-Type: application/json
     Authorization: Bearer 2|0q2K7QUbnT3TcQUMsyyRh4UASupLJl9XuKjotUqqe5b1832c
@@ -35,6 +43,8 @@
     }
     
 ## Process Payment
+**Initiates a bank transfer to a verified account**
+
     POST /api/bank/process-transaction HTTP/1.1
     Content-Type: application/json
     Authorization: Bearer 2|0q2K7QUbnT3TcQUMsyyRh4UASupLJl9XuKjotUqqe5b1832c
