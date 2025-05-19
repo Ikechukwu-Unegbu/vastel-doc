@@ -1,7 +1,7 @@
 ## Virtual Account Endpoint
 
 ### Fetch Banks for BVN KYC Verification
-    GET /api/banks?monnify
+    GET /api/banks?type={monnify|palmpay}
     HTTP/1.1
     Content-Type: application/json
     Example Response : {
