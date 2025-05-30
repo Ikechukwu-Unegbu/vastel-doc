@@ -667,3 +667,37 @@
         "response": [],
         "message": "Virtual Account Created Succeefully."
     }
+
+## Get active virtual account
+
+    This endpoints fetch active virtual accounts
+    METHOD - GET
+    URL: domain.com/api/active-virtual-accounts
+
+    Headers: 
+      Content-Type: application/json
+    
+    ### Response 
+    
+     {
+      "status": true,
+      "response": [
+        {
+          "id": 1117,
+          "type": "palmpay",
+          "name": "ADDOSSER MFB",
+          "code": "090160",
+          "image": "https://transsnet-app-images-prod.s3.eu-west-1.amazonaws.com/20220405/624c18b0f5ef8e2c7c7ec480.png",
+          "status": 1,
+          "va_status": 1,
+          "ussd_template": null,
+          "base_ussd_code": null,
+          "transfer_ussd_template": null,
+          "bank_id": null,
+          "nip_bank_code": null,
+          "created_at": "2025-03-07T12:08:57.000000Z",
+          "updated_at": "2025-05-27T16:40:55.000000Z"
+        }
+      ],
+      "message": ""
+    }
