@@ -389,7 +389,10 @@ This endpoint creates a new Investment Account which serves as the foundation fo
 ```
 
 
-## Update Account Next Of Kin Endpoint
+## Add Bank Endpoint
+
+## Description
+Add a bank account to an investment account.
 `POST {{base_url}}/onboarding/bank/create`
 ## Body
 ```json
