@@ -400,33 +400,6 @@ Add a bank account to an investment account.
     "account_number": "0244940582"
 }
 ```
-## Response Structure
-
-
-## Create Wallet Endpoint
-## Description
-Create a new wallet
-`POST {{base_url}}/investments/wallet/create`
-## Response Structure
-```json
-{
-    {
-        "wallet_id": "368b59e6f35d1de6669ad44e09a5b976",
-        "account_id": "b9c82f9fde159f6cdf73342c96dd5382",
-        "name": "NGN-Wallet",
-        "bank_name": "",
-        "product_code": "PRCD265E3469989",
-        "created_on": "2022-08-17T06:42:59.780880+00:00",
-        "currency": "NGN",
-        "balance": "0.00000",
-        "account_number": "",
-        "account_name": ""
-    },
-    "errors":null,
-    "message":"Request successful",
-    "status":"success"
-}
-```
 
 ## Get Wallet Endpoint
 ## Description
