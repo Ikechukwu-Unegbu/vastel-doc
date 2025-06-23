@@ -268,7 +268,7 @@
 ## Body
 ```json
 {
-    "amount": "1000"
+    "amount": "150000"
 }
 ```
 ## Response Structure
