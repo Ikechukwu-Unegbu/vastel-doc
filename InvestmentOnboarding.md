@@ -63,7 +63,7 @@ This endpoint creates a new Investment Account which serves as the foundation fo
 ```
 
 ## Update Account Endpoint
-`POST {{base_url}}/onboarding/profile/update`
+`POST {{base_url}}/investments/onboarding/profile/update`
 ## Body
 ```json
 {
@@ -125,7 +125,7 @@ This endpoint creates a new Investment Account which serves as the foundation fo
 
 
 ## Get Account Endpoint
-`GET {{base_url}}/onboarding/account`
+`GET {{base_url}}/investments/onboarding/account`
 ## Response Structure
 ```json
 {
@@ -162,7 +162,7 @@ This endpoint creates a new Investment Account which serves as the foundation fo
 
 
 ## GET Account Portfolio Endpoint
-`GET {{base_url}}/onboarding/portfolio`
+`GET {{base_url}}/investments/onboarding/portfolio`
 ## Response Structure
 ```json
 {
@@ -232,7 +232,7 @@ This endpoint creates a new Investment Account which serves as the foundation fo
 
 
 ## Update Account Identity Endpoint
-`POST {{base_url}}/onboarding/identity/update`
+`POST {{base_url}}/investments/onboarding/identity/update`
 ## Body
 ```json
 {
@@ -256,7 +256,7 @@ This endpoint creates a new Investment Account which serves as the foundation fo
 ```
 
 ## Update Account Address Endpoint
-`POST {{base_url}}/onboarding/address/update`
+`POST {{base_url}}/investments/onboarding/address/update`
 ```json
 {
     "street": "10, Edidi Lane",
@@ -321,7 +321,7 @@ This endpoint creates a new Investment Account which serves as the foundation fo
 ```
 
 ## Update Account Next Of Kin Endpoint
-`POST {{base_url}}/onboarding/nok/update`
+`POST {{base_url}}/investments/onboarding/nok/update`
 ## Body
 ```json
 {
@@ -390,10 +390,9 @@ This endpoint creates a new Investment Account which serves as the foundation fo
 
 
 ## Add Bank Endpoint
-
 ## Description
 Add a bank account to an investment account.
-`POST {{base_url}}/onboarding/bank/create`
+`POST {{base_url}}/investments/onboarding/bank/create`
 ## Body
 ```json
 {
@@ -402,3 +401,56 @@ Add a bank account to an investment account.
 }
 ```
 ## Response Structure
+
+
+## Create Wallet Endpoint
+## Description
+Create a new wallet
+`POST {{base_url}}/investments/wallet/create`
+## Response Structure
+```json
+{
+    {
+        "wallet_id": "368b59e6f35d1de6669ad44e09a5b976",
+        "account_id": "b9c82f9fde159f6cdf73342c96dd5382",
+        "name": "NGN-Wallet",
+        "bank_name": "",
+        "product_code": "PRCD265E3469989",
+        "created_on": "2022-08-17T06:42:59.780880+00:00",
+        "currency": "NGN",
+        "balance": "0.00000",
+        "account_number": "",
+        "account_name": ""
+    },
+    "errors":null,
+    "message":"Request successful",
+    "status":"success"
+}
+```
+
+## Get Wallet Endpoint
+## Description
+`GET {{base_url}}/investments/wallet`
+## Response Structure
+```json
+    {
+    "status": true,
+    "response": [
+        {
+            "id": 3,
+            "cowry_wise_account_id": 19,
+            "wallet_id": "bc03729baa3842148acf2cef6aa62182",
+            "name": "NGN-Wallet",
+            "bank_name": "",
+            "product_code": "PRCDE6608556312",
+            "currency": "NGN",
+            "balance": "50000000.00",
+            "account_number": "",
+            "account_name": "",
+            "created_at": "2025-06-23T00:36:14.000000Z",
+            "updated_at": "2025-06-23T00:36:14.000000Z"
+        }
+    ],
+    "message": "Wallet retrieved successfully"
+}
+```
