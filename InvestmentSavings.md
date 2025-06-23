@@ -263,7 +263,7 @@
 }
 ```
 
-## Fund Savings Endpoint
+## Withdraw Savings to wallet Endpoint
 `GET {{base_url}}/investments/savings/{saving_id}/withdraw`
 ## Body
 ```json
