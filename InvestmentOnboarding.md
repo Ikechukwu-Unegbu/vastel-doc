@@ -6,13 +6,6 @@
 ## Description
 This endpoint creates a new Investment Account which serves as the foundation for various investment products. The account holds core user information and serves as the primary container for all investment activities.
 
-## Body
-```json
-{
-    "first_name": "Test",
-    "last_name": "User"
-}
-```
 ## Response Structure
 ```json
 {
@@ -64,16 +57,7 @@ This endpoint creates a new Investment Account which serves as the foundation fo
 
 ## Update Account Endpoint
 `POST {{base_url}}/investments/onboarding/profile/update`
-## Body
-```json
-{
-    "first_name": "Test",
-    "last_name": "User",
-    "phone_number": "09099009900",
-    "gender": "M" OR "F",
-    "date_of_birth": "1996-12-03",
-}
-```
+
 ## Response Structure
 ```json
 {
@@ -233,13 +217,7 @@ This endpoint creates a new Investment Account which serves as the foundation fo
 
 ## Update Account Identity Endpoint
 `POST {{base_url}}/investments/onboarding/identity/update`
-## Body
-```json
-{
-    "identity_type": "BVN" OR "NIN",
-    "identity_value": "22146433184"
-}
-```
+
 ## Response Structure
 ```json
 {
@@ -257,15 +235,7 @@ This endpoint creates a new Investment Account which serves as the foundation fo
 
 ## Update Account Address Endpoint
 `POST {{base_url}}/investments/onboarding/address/update`
-```json
-{
-    "street": "10, Edidi Lane",
-    "lga": "Idumota",
-    "area_code": "100034",
-    "city": "Lagos",
-    "state": "Lagos"
-}
-```
+
 ## Response Structure
 ```json
 {
@@ -322,17 +292,6 @@ This endpoint creates a new Investment Account which serves as the foundation fo
 
 ## Update Account Next Of Kin Endpoint
 `POST {{base_url}}/investments/onboarding/nok/update`
-## Body
-```json
-{
-    "relationship": "sister",
-    "first_name": "Test",
-    "last_name": "User2",
-    "email": "nok.email@email.com",
-    "phone_number": "09068514310",
-    "gender": "F"
-}
-```
 ## Response Structure
 ```json
 {
