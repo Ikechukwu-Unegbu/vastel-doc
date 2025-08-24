@@ -718,3 +718,56 @@
       ],
       "message": ""
     }
+
+
+## Mobile App Banners
+    [
+        {
+            "id": 6,
+            "name": "Ikechukwu Vincent",
+            "file_name": null,
+            "path": null,
+            "type": "image",
+            "mime_type": null,
+            "size": null,
+            "extension": null,
+            "user_id": 10,
+            "is_featured": 0,
+            "metadata": null,
+            "created_at": "2025-08-24T13:48:08.000000Z",
+            "updated_at": "2025-08-24T13:48:08.000000Z",
+            "useage": "mobile-app-banner"
+        },
+        {
+            "id": 7,
+            "name": "Ikechukwu Vincent",
+            "file_name": null,
+            "path": "https://vastel-uploads.fra1.digitaloceanspaces.com/staging/media/DkUACXNVQg8ONYI64R2SNLWwQPkpa1qFQyPxp12K.png",
+            "type": "image",
+            "mime_type": null,
+            "size": null,
+            "extension": null,
+            "user_id": 10,
+            "is_featured": 0,
+            "metadata": null,
+            "created_at": "2025-08-24T13:49:48.000000Z",
+            "updated_at": "2025-08-24T13:49:49.000000Z",
+            "useage": "mobile-app-banner"
+        },
+        {
+            "id": 8,
+            "name": "hello",
+            "file_name": null,
+            "path": "https://vastel-uploads.fra1.digitaloceanspaces.com/staging/media/b9S2PZ2qq0Pa3FPj2y3jGBz7LOFUtrEWvu66AWTg.jpg",
+            "type": "image",
+            "mime_type": null,
+            "size": null,
+            "extension": null,
+            "user_id": 10,
+            "is_featured": 0,
+            "metadata": null,
+            "created_at": "2025-08-24T13:50:26.000000Z",
+            "updated_at": "2025-08-24T13:50:27.000000Z",
+            "useage": "mobile-app-banner"
+        }
+    ]
