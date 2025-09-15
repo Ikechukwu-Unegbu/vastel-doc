@@ -52,6 +52,8 @@
     Wallet generation is handled in the background. So when call to wallet generation endpoint is successful,
     you only get success response but not the wallet. You wont recieve any wallet to display.
 
+    GET call
+    Endpoint: domain/api/quidax/wallets-generate/usdt?network=bep20
 ### Failure Response 
     {
         "status": false,
@@ -99,6 +101,8 @@
 
 
 ### Success Response 
+    GET call
+    Endpoint: domain/api/quidax/wallets
 
     {
         "status": true,
