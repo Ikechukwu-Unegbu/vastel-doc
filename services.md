@@ -52,6 +52,39 @@ On no account shall this work be used by any party without explicity approval of
         ]
     }
 
+## View Single data network
+  On this endpoint you will see percentaging discount for data and airtime on this network
+
+  POST /api/networks/{id} HTTP/1.1
+    Valid types: data & airtime
+    Content-Type: application/json
+### Response
+    {
+        "status": true,
+        "response": {
+            "id": 9,
+            "vendor_id": 2,
+            "network_id": "4",
+            "name": "AIRTEL",
+            "airtime_discount": 2,
+            "data_discount": 0,
+            "status": 1,
+            "airtime_status": 1,
+            "created_at": "2024-07-17T13:31:31.000000Z",
+            "updated_at": "2025-04-15T13:16:41.000000Z"
+        },
+        "message": "Network fetched successfully"
+    }
+
+### Another Response
+    {
+        "status": false,
+        "errors": [
+            "Network not found or does not belong to active vendor"
+        ],
+        "message": "Invalid network ID or inactive vendor"
+    }
+
 ## Data Plan Endpoint
     POST /api/dataplans HTTP/1.1
     Content-Type: application/json
