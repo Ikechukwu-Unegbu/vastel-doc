@@ -6,6 +6,103 @@
     Our provider endpoint is case sensitive and values are to be supplied in lower case except where otherwise stated.
 
 
+## Exchange rates api for each of the allowed coins
+
+    Method: POST
+    Endpoint: domain/api/quidax/temporary-swap
+## Response    
+    {
+        "status": "success",
+        "data": {
+            "usdt": {
+                "status": "success",
+                "message": "Successful",
+                "data": {
+                    "from_currency": "USDT",
+                    "to_currency": "NGN",
+                    "from_amount": "1.0",
+                    "to_amount": "1490.86",
+                    "quoted_price": "1490.8623",
+                    "quoted_currency": "NGN"
+                }
+            },
+            "usdc": {
+                "status": "success",
+                "message": "Successful",
+                "data": {
+                    "from_currency": "USDC",
+                    "to_currency": "NGN",
+                    "from_amount": "1.0",
+                    "to_amount": "1475.35",
+                    "quoted_price": "1475.3573926556175",
+                    "quoted_currency": "NGN"
+                }
+            },
+            "btc": {
+                "status": "success",
+                "message": "Successful",
+                "data": {
+                    "from_currency": "BTC",
+                    "to_currency": "NGN",
+                    "from_amount": "1.0",
+                    "to_amount": "163618941.0",
+                    "quoted_price": "163618941.92",
+                    "quoted_currency": "NGN"
+                }
+            },
+            "eth": {
+                "status": "success",
+                "message": "Successful",
+                "data": {
+                    "from_currency": "ETH",
+                    "to_currency": "NGN",
+                    "from_amount": "1.0",
+                    "to_amount": "5855439.0",
+                    "quoted_price": "5855439.24",
+                    "quoted_currency": "NGN"
+                }
+            },
+            "bnb": {
+                "status": "success",
+                "message": "Successful",
+                "data": {
+                    "from_currency": "BNB",
+                    "to_currency": "NGN",
+                    "from_amount": "1.0",
+                    "to_amount": "1458966.17",
+                    "quoted_price": "1458966.1734999",
+                    "quoted_currency": "NGN"
+                }
+            },
+            "sol": {
+                "status": "success",
+                "message": "Successful",
+                "data": {
+                    "from_currency": "SOL",
+                    "to_currency": "NGN",
+                    "from_amount": "1.0",
+                    "to_amount": "294982.87",
+                    "quoted_price": "294982.877346498",
+                    "quoted_currency": "NGN"
+                }
+            },
+            "doge": null,
+            "trx": null,
+            "xrp": {
+                "status": "success",
+                "message": "Successful",
+                "data": {
+                    "from_currency": "XRP",
+                    "to_currency": "NGN",
+                    "from_amount": "1.0",
+                    "to_amount": "4148.5",
+                    "quoted_price": "4148.5066",
+                    "quoted_currency": "NGN"
+                }
+            }
+        }
+    }
+
 
 ## User account creation
     We can set account for every user on Quidax via backend command or we can create account for users only when they need crypto service. I prefer the later unless there is strong argument for the former.
