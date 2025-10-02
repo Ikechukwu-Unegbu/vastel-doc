@@ -128,7 +128,8 @@ On no account shall this work be used by any party without explicity approval of
     Body : {
         "network_id": 1,
         "amount": 200,
-        "phone_number": 080XXXXXXXX
+        "phone_number": 080XXXXXXXX, 
+        "wallet":either "crypto_wallet" or "base_wallet" base is default
     }
 
     Validation Response: {
@@ -178,7 +179,8 @@ On no account shall this work be used by any party without explicity approval of
         "network_id": 1,
         "data_type_id": 2,
         "plan_id": 11,
-        "phone_number": 080XXXXXXXX
+        "phone_number": 080XXXXXXXX,
+         "wallet":either "crypto_wallet" or "base_wallet"
     }
 
     Validation Response : {
